@@ -19,12 +19,14 @@ int main(int argc, char *argv[])
     QObject::connect(engine, SIGNAL(quit()), application.data(), SLOT(quit()));
     //engine->addImageProvider(QStringLiteral("thumbnail"), new ThumbnailProvider);
 
+    QObject::connect(engine, SIGNAL(quit()), application.data(), SLOT(quit()));
+
     view->setSource(SailfishApp::pathTo("qml/harbour-matriksi.qml"));
 
     //if(daemonized)
     //    application->setQuitOnLastWindowClosed(false);
     //else
-        view->show();
+    view->show();
 
     return application->exec();
 }

@@ -95,7 +95,6 @@ Page {
                         roomevents.members = data
                     });*/
                 });
-
             }
         }
     }
@@ -105,6 +104,5 @@ Page {
           currentRoom = ""
       }
     }
-
 }
 

@@ -81,23 +81,18 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="38"/>
-        <source>Logout</source>
+        <location filename="../qml/pages/FirstPage.qml" line="31"/>
+        <source>Settings</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="31"/>
-        <source>Settings</source>
+        <location filename="../qml/pages/FirstPage.qml" line="38"/>
+        <source>Logout</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>Login</name>
-    <message>
-        <location filename="../qml/pages/Login.qml" line="14"/>
-        <source>Please wait...</source>
-        <translation type="unfinished"></translation>
-    </message>
     <message>
         <location filename="../qml/pages/Login.qml" line="63"/>
         <source>Matriksi</source>
@@ -121,6 +116,11 @@
     <message>
         <location filename="../qml/pages/Login.qml" line="82"/>
         <source>Password</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/Login.qml" line="14"/>
+        <source>Please wait...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
