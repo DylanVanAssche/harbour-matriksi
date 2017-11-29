@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <img src="https://github.com/Sailbook/harbour-matrix/blob/master/icons/256x256/harbour-matrix.png" width="256px" alt="BudgetManager">
+  <img src="https://github.com/Sailbook/harbour-matriksi/blob/master/icons/256x256/harbour-matrix.png" width="256px">
   <br>
   <br>
   Matriksi
