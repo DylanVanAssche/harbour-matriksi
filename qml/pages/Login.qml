@@ -10,11 +10,11 @@ Item {
 
     property alias labeltext: label.text
 
-
     function login(pretend) {
         labeltext = qsTr("Please wait...")
         if(!pretend) login_with_data(hostNameField.text, userNameField.text, passwordField.text)
         loginongoing = true
+        showstuff = false
         accountbutton.opacity = 0
     }
 

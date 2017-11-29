@@ -94,7 +94,7 @@
 <context>
     <name>Login</name>
     <message>
-        <location filename="../qml/pages/Login.qml" line="15"/>
+        <location filename="../qml/pages/Login.qml" line="14"/>
         <source>Please wait...</source>
         <translation type="unfinished"></translation>
     </message>
@@ -140,8 +140,33 @@
 <context>
     <name>SettingsPage</name>
     <message>
+        <location filename="../qml/pages/SettingsPage.qml" line="12"/>
+        <source>Settings</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../qml/pages/SettingsPage.qml" line="14"/>
         <source>Matriksi Settings</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/SettingsPage.qml" line="18"/>
+        <source>Fancy colors</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/SettingsPage.qml" line="19"/>
+        <source>Use fancy colors on user names</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/SettingsPage.qml" line="29"/>
+        <source>Dark background</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/SettingsPage.qml" line="30"/>
+        <source>Use dark background on chat</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
