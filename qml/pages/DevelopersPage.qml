@@ -20,7 +20,7 @@ Page
 
             CollaboratorsLabel {
                 title: qsTr("Developers");
-                labelData: [ "Xray2000", "r0kk3rz", "AlmAck" ]
+                labelData: [ "Xray2000", "minitreintje" ]
             }
 
             CollaboratorsLabel {
@@ -30,7 +30,7 @@ Page
 
             CollaboratorsLabel {
                 title: qsTr("Contributors");
-                labelData: [ "minitreintje", "KitsuneRal" ]
+                labelData: [ "matrix.org" ]
             }
         }
     }

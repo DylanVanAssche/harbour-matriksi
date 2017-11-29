@@ -76,17 +76,17 @@
 <context>
     <name>FirstPage</name>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="19"/>
+        <location filename="../qml/pages/FirstPage.qml" line="26"/>
         <source>About Matriksi</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="31"/>
+        <location filename="../qml/pages/FirstPage.qml" line="38"/>
         <source>Logout</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="24"/>
+        <location filename="../qml/pages/FirstPage.qml" line="31"/>
         <source>Settings</source>
         <translation type="unfinished"></translation>
     </message>

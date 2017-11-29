@@ -123,6 +123,7 @@ DISTFILES += \
     qml/components/about/ThirdPartyLabel.qml \
     qml/components/textlabel/TextLabel.qml \
     qml/components/custom/ClickableLabel.qml \
+    qml/components/custom/AvatarImage.qml \
     qml/components/translation/IconTextButton.qml \
     qml/pages/TextDelegateComponent.qml \
     qml/pages/MemberDelegate.qml \
