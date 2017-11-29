@@ -9,14 +9,14 @@ Page {
         spacing: Theme.paddingMedium
         x: Theme.paddingLarge
 
-        PageHeader {title: "Settings"}
+        PageHeader { title: qsTr("Settings") }
 
         SectionHeader{ text: qsTr("Matriksi Settings") }
 
         TextSwitch {
             id: colorSwitch
-            text: "Fancy colors"
-            description: "Use fancy colors on user names"
+            text: qsTr("Fancy colors")
+            description: qsTr("Use fancy colors on user names")
             checked: useFancyColors
             automaticCheck: false
             onClicked: {
@@ -26,8 +26,8 @@ Page {
         }
         TextSwitch {
             id: bgSwitch
-            text: "Dark background"
-            description: "Use dark background on chat"
+            text: qsTr("Dark background")
+            description: qsTr("Use dark background on chat")
             checked: useBlackBackground
             automaticCheck: false
             onClicked: {
