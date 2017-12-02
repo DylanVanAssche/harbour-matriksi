@@ -76,23 +76,33 @@
 <context>
     <name>FirstPage</name>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="26"/>
+        <location filename="../qml/pages/FirstPage.qml" line="25"/>
         <source>About Matriksi</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="31"/>
+        <location filename="../qml/pages/FirstPage.qml" line="30"/>
         <source>Settings</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="38"/>
+        <location filename="../qml/pages/FirstPage.qml" line="37"/>
         <source>Logout</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/FirstPage.qml" line="86"/>
+        <source>Join room...</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>Login</name>
+    <message>
+        <location filename="../qml/pages/Login.qml" line="14"/>
+        <source>Please wait loading...</source>
+        <translation type="unfinished"></translation>
+    </message>
     <message>
         <location filename="../qml/pages/Login.qml" line="63"/>
         <source>Matriksi</source>
@@ -116,11 +126,6 @@
     <message>
         <location filename="../qml/pages/Login.qml" line="82"/>
         <source>Password</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/Login.qml" line="14"/>
-        <source>Please wait...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

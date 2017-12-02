@@ -13,7 +13,6 @@ Page {
 
         anchors.top: parent.top
 
-        enabled: initialised
         opacity:  initialized ? 1 : 0
 
         clip: true
@@ -78,6 +77,16 @@ Page {
                     font.pixelSize: Theme.fontSizeMedium
                 }
              }
+         }
+
+            TextField {
+                id: textEntry
+                width: parent.width
+                anchors.bottom: parent.bottom
+                placeholderText: qsTr("Join room...")
+                EnterKey.onClicked: { joinRoom(text); text = "" }
+            }
+         }
 
             onClicked: {
                 console.log("Room clicked: " + model.room_id)
@@ -96,8 +105,6 @@ Page {
                     });*/
                 });
             }
-        }
-    }
 
     onStatusChanged: {
       if (status === PageStatus.Active && pageStack.depth === 1) {

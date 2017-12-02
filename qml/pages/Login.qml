@@ -11,7 +11,7 @@ Item {
     property alias labeltext: label.text
 
     function login(pretend) {
-        labeltext = qsTr("Please wait...")
+        labeltext = qsTr("Please wait loading...")
         if(!pretend) login_with_data(hostNameField.text, userNameField.text, passwordField.text)
         loginongoing = true
         showstuff = false
@@ -111,7 +111,7 @@ Item {
         NumberAnimation on opacity {
             id: fadeIn
             to: 1.0
-            duration: 1000
+            duration: 2000
         }
 
         Component.onCompleted: fadeIn.start()
