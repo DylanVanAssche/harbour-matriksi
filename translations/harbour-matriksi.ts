@@ -91,7 +91,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="86"/>
+        <location filename="../qml/pages/FirstPage.qml" line="106"/>
         <source>Join room...</source>
         <translation type="unfinished"></translation>
     </message>

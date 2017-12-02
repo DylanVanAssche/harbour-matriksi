@@ -76,17 +76,7 @@ Page {
                     anchors.verticalCenter: parent.verticalCenter
                     font.pixelSize: Theme.fontSizeMedium
                 }
-             }
-         }
-
-            TextField {
-                id: textEntry
-                width: parent.width
-                anchors.bottom: parent.bottom
-                placeholderText: qsTr("Join room...")
-                EnterKey.onClicked: {py.call('pyclient.client.join_room', [text]); text = "" }
             }
-         }
 
             onClicked: {
                 console.log("Room clicked: " + model.room_id)
@@ -104,7 +94,19 @@ Page {
                         roomevents.members = data
                     });*/
                 });
+
             }
+        }
+    }
+
+            TextField {
+                id: textEntry
+                width: parent.width
+                anchors.bottom: parent.bottom
+                placeholderText: qsTr("Join room...")
+                EnterKey.onClicked: {py.call('pyclient.client.join_room', [text]); text = "" }
+            }
+
 
     onStatusChanged: {
       if (status === PageStatus.Active && pageStack.depth === 1) {

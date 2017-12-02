@@ -111,7 +111,7 @@ Item {
         NumberAnimation on opacity {
             id: fadeIn
             to: 1.0
-            duration: 2000
+            duration: 1500
         }
 
         Component.onCompleted: fadeIn.start()
