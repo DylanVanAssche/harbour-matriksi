@@ -84,7 +84,7 @@ Page {
                 width: parent.width
                 anchors.bottom: parent.bottom
                 placeholderText: qsTr("Join room...")
-                EnterKey.onClicked: { joinRoom(text); text = "" }
+                EnterKey.onClicked: {py.call('pyclient.client.join_room', [text]); text = "" }
             }
          }
 
