@@ -101,7 +101,9 @@ Item {
         }
 
         Button {
-           id: accountbutton
+            opacity: !accountbutton ? 1:0
+            enabled: !accountbutton&&showlogin ? 1:0
+            id: accountbutton
             text: qsTr("Create an Matrix account")
             anchors.horizontalCenter: parent.horizontalCenter
             onClicked: { Qt.openUrlExternally("https://riot.im/app/#/register");

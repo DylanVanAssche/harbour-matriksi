@@ -99,11 +99,6 @@
 <context>
     <name>Login</name>
     <message>
-        <location filename="../qml/pages/Login.qml" line="14"/>
-        <source>Please wait loading...</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../qml/pages/Login.qml" line="63"/>
         <source>Matriksi</source>
         <translation type="unfinished"></translation>
@@ -119,13 +114,18 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/Login.qml" line="105"/>
+        <location filename="../qml/pages/Login.qml" line="107"/>
         <source>Create an Matrix account</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/pages/Login.qml" line="82"/>
         <source>Password</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/Login.qml" line="14"/>
+        <source>Please wait loading...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

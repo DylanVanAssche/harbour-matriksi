@@ -107,7 +107,6 @@ Page {
                 EnterKey.onClicked: {py.call('pyclient.client.join_room', [text]); text = "" }
             }
 
-
     onStatusChanged: {
       if (status === PageStatus.Active && pageStack.depth === 1) {
           currentRoom = ""
