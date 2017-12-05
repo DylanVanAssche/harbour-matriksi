@@ -15,7 +15,7 @@ ApplicationWindow
     _defaultPageOrientations: Orientation.All
 
     property string appName: "Matriksi"
-    property string version: "0.9.7 Beta"
+    property string version: "0.1.0 Beta"
 
     property string token: ""
     property var joinedRooms: ({})

@@ -11,7 +11,7 @@ Item {
     property alias labeltext: label.text
 
     function login(pretend) {
-        labeltext = qsTr("Please wait loading...")
+        labeltext = qsTr("Please wait loading rooms...")
         if(!pretend) login_with_data(hostNameField.text, userNameField.text, passwordField.text)
         loginongoing = true
         showstuff = false

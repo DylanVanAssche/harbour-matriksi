@@ -66,7 +66,7 @@ Page {
                 anchors.verticalCenter: parent.verticalCenter
             }
 
-                Label {
+             Label {
                     text: model.unreadmessages > 0 ? model.name+ " ("+model.unreadmessages+")" : model.name
                     font.bold: (model.unreadmessages > 0)
                     truncationMode: TruncationMode.Fade
