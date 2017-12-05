@@ -24,7 +24,10 @@ SAILFISHAPP_ICONS = 86x86 108x108 128x128 256x256
 
 CONFIG += sailfishapp_i18n
 
-TRANSLATIONS += translations/harbour-matriksi.ts
+TRANSLATIONS += translations/harbour-matriksi.ts \
+                translations/harbour-matriksi-es.ts \
+                translations/harbour-matriksi-fi.ts \
+                translations/harbour-matriksi-de.ts
 
 DISTFILES += \
     qml/room.py \
